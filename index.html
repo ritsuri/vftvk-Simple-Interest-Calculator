@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <title> Simple Interest Calculator </title>
-  <link rel="stylesheet" href="Ical.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -25,14 +25,24 @@
 <tr>
   <td>Interest rate</td>
   <td>
-  <input type="range" id="Irate" min="1" max="20" step="0.5"> <span id="demo"></span>
+  <input type="range" id="Irate" min="1" max="20" step="0.25"> <span id="demo"></span>
   </td>
 </tr>
 
 <tr>
   <td>No. of Years</td>
   <td>
-  <input type="number" id="Years" min="1" max="10" step="1" value="1">
+  <select id="Years">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="0">10</option>
   </td>
 </tr>
 
@@ -43,14 +53,15 @@
   </td>
 </tr>
 
-  <script src="Ical.js"> //run calculator script </script>
+  <script src="script.js"> //run calculator script </script>
 
 <tr><td colspan="2"><br></td></tr>
 <tr><td colspan="2" id="resultAmount"></td></tr>
 <tr><td colspan="2" id="resultIrate"></td></tr>
 <tr><td colspan="2" id="resultAnswer"></td></tr>
 <tr><td colspan="2" id="resultYears"></td></tr>
-<tr><td><p colspan="2"><b>&copy Everyone can get rich<b></p></td></tr>
+<tr><td colspan="2"><br></td></tr>
+<tr><td><footer colspan="2"><b>&#169 Everyone can get rich</b></footer></td></tr>
 
 </table>
 </body>
