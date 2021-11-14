@@ -1,24 +1,26 @@
 body {
-background-color: black;
-color: #000000;
-text-align: left;
-font-size: 100%;
-font-family: sans-serif;
-}
-
-table {
-  background-color: white;
-  width: 30%;
-  align-content: center;
-  padding: 36px;
-  margin: 36px;
-  border-radius: 36px;
-}
-
-input {
-    margin: .5rem;
-}
-
-h1 {
-  color:#808080;
-}
+    background-color: black;
+    color: #000000;
+    text-align: left;
+    font-size: 100%;
+    font-family: sans-serif;
+    }
+    
+    table {
+      background-color: white;
+      width: 30%;
+      align-content: center;
+      padding: 36px;
+      margin: 36px;
+      border-radius: 25px;
+    }
+    
+    input {
+        margin: .5rem;
+    }
+    
+    h1 {
+      color:grey;
+    
+    }
+    
